@@ -1,0 +1,354 @@
+	@media(min-width:992px) and (max-width:199px) {}
+
+	@media(min-width:768px) and (max-width:991px) {
+	    /* menu part start*/
+	    .menu_bar {
+	        height: 60px;
+	    }
+	    .logo img {
+	        padding-top: 4px;
+	        width: 90px;
+	    }
+	    #mynav ul li a {
+	        font-size: 13px;
+	        padding: 20px 5 px;
+	    }
+	    .logo {
+	        padding: 5px 25px;
+	        height: 100%;
+	    }
+	    /* menu part end*/
+	    /* banner part start*/
+	    .banner_item {
+	        height: 500px;
+	    }
+
+	    .banner_inner {
+	        margin-top: 100px;
+	    }
+
+	    .navbar-expand-md .navbar-nav .nav-link {
+	        padding-left: 0;
+	    }
+
+	    #banner_part ul {
+	        bottom: 40px;
+	    }
+
+	    /* banner part end*/
+	    /* About part start */
+	    .about_left .about_text h3 {
+	        font-size: 21px;
+	        margin-bottom: 50px;
+	    }
+	    .about_left .about_text h3 i {
+	        margin-left: 10px;
+	    }
+	    .about_left .about_text p {
+	        margin: -11px;
+	    }
+	    .about_right .about_text h3 {
+	        font-size: 20px;
+	        margin-bottom: 30px;
+	    }
+	    .about_right .about_text h3 i {
+	        margin-right: 10px;
+	    }
+	    .about_right .about_text p {
+	        margin: -11px;
+	    }
+	    /* About part end */
+	    /* work part start */
+	    .text-left ul li {
+	        width: 100px;
+	        margin: 0px 5px;
+	    }
+	    dl,
+	    ol,
+	    ul {
+	        margin-bottom: 45px;
+	    }
+	    /* work part end */
+	    /* Our service part start */
+	    .service_item {
+	        border-right: 1px solid #ddd;
+	    }
+	    /* Our service part end */
+	    /* skill part start */
+	    .skill_inner {
+	        padding: 0px 10px 20px 0px;
+	    }
+	    .skill_inner h2 {
+	        font-size: 28px;
+	        margin-left: 200px;
+	    }
+	    .skill_inner p {
+	        margin-left: 200px;
+	    }
+	    .barfiller {
+	        width: 125%;
+	    }
+	    /* skill part end */
+	}
+
+	@media(min-width:576px) and (max-width:767px) {
+	    /*  Menu part start  */
+	    #mynav ul li a {
+	        padding: 10px 20px 0;
+	    }
+
+	    .navbar-brand {
+	        padding-top: 0;
+	    }
+
+	    .navbar-nav {
+	        padding-top: 0px;
+	        margin-top: -2px;
+	        background: rgba(0, 0, 0, .8);
+	    }
+
+	    .navbar-expand-lg > .container,
+	    .navbar-expand-lg > .container-fluid {
+	        padding: 15px 0;
+	    }
+
+	    toggler:not(:disabled):not(.disabled) {
+	        padding: 2px 7px;
+	    }
+
+	    .navbar-collapse {
+	        padding: 0px 0px;
+	        margin: 0px -17px;
+	    }
+
+	    img {
+	        height: 58px;
+	    }
+
+	    .navbar-toggler:not(:disabled):not(.disabled) {
+	        border-color: #37a000;
+	        padding: 2px 8px;
+	    }
+
+	    /*  Menu part end  */
+	    /* banner part start */
+	    .banner_item {
+	        height: 500px;
+	    }
+	    .banner_inner {
+	        margin-top: 160px;
+	    }
+
+	    .banner_inner h2 {
+	        font-size: 28px;
+	        padding-bottom: 10px;
+	    }
+
+
+
+	    #banner_part .carousel-indicators {
+	        bottom: 12%;
+	    }
+
+	    /* banner part end */
+	    /*  About part start  */
+	    .about_left .about_text h3 {
+	        text-align: left;
+	    }
+
+	    .about_left .about_text h3 i {
+	        margin-left: 0px;
+	        margin-right: 10px;
+	        float: left;
+	    }
+
+	    .about_left .about_text p {
+	        text-align: left;
+	    }
+
+	    .about_right .about_text h3 i {
+	        margin-right: 10px;
+	    }
+
+	    /*  About part end  */
+	    /* Our work part start */
+	    .text-left ul li {
+	        margin-bottom: 5px;
+	    }
+
+	    .img_1 {
+	        height: 100%;
+	    }
+	    .img_2 {
+	        height: 100%;
+	    }
+	    .img_3 {
+	        height: 100%;
+	    }
+	    .img_4 {
+	        height: 100%;
+	    }
+	    .img_5 {
+	        height: 100%;
+	    }
+	    .img_6 {
+	        height: 100%;
+	    }
+	    .img_7 {
+	        height: 100%;
+	    }
+	    .img_8 {
+	        height: 100%;
+	    }
+	    /* Our work part end */
+	    /* Our service part start */
+	    .service_item {
+	        border-right: 1px solid #ddd;
+	    }
+
+	    /* Our service part end */
+	    /* skill part start */
+	    .barfiller {
+	        width: 118%;
+	    }
+
+	    .progress_bar_div {
+	        padding: 20px 100px 65px 15px;
+	    }
+
+	    /* skill part end */
+	    /* team part start */
+	    .team_img img {
+	        height: 100%;
+	    }
+
+	    .team_text_inner p {
+	        padding: 10px 0px 30px 0;
+	    }
+	    /* team part end */
+	    /* blog part start */
+	    .blog_inner img {
+	        height: 100%;
+	    }
+	    /* blog part end */
+	}
+
+	@media(max-width:575px) {
+	    /*  Menu part start  */
+	    #mynav ul li a {
+	        padding-bottom: 0px;
+	        padding-top: 10px;
+	    }
+	    img {
+	        width: 110px;
+	    }
+
+	    .menu_bar {
+	        border-bottom-color: rgba(91, 188, 86, 0.4);
+	    }
+
+	    .navbar-light .navbar-toggler {
+	        border-color: #37a000;
+	    }
+
+	    .navbar-brand {
+	        padding-top: 0px;
+	    }
+
+	    .navbar-toggler:not(:disabled):not(.disabled) {
+	        padding: 3px 8px;
+	    }
+
+	    /*  Menu part end  */
+	    /* banner part start */
+	    .banner_item {
+	        height: 500px;
+	    }
+
+	    .banner_inner {
+	        margin-top: 135px;
+	    }
+
+	    .banner_inner h2 {
+	        font-size: 32px;
+	    }
+
+	    .banner_inner h2 {
+	        padding-bottom: 20px;
+	    }
+
+	    .banner_inner a {
+	        width: 108px;
+	        margin: 40px 0;
+	    }
+	    #banner_part .carousel-indicators {
+	        bottom: 12%;
+	    }
+	    /* banner part end */
+	    /*  About part start  */
+	    .about_left .about_text h3 {
+	        text-align: left;
+	        font-size: 22px;
+	    }
+	    .about_left .about_text h3 i {
+	        margin-left: 0px;
+	        margin-right: 10px;
+	        float: none;
+	    }
+	    .about_left .about_text p {
+	        text-align: left;
+	    }
+	    .about_right .about_text h3 {
+	        font-size: 22px;
+	    }
+	    .about_right .about_text h3 i {
+	        margin-right: 10px;
+	    }
+	    /*  About part end  */
+	    /* work part start */
+	    .text-left ul li {
+	        margin-bottom: 5px;
+	    }
+	    /* work part end */
+	    /* Our service part start */
+	    .service_item {
+	        margin: 0 15px;
+	        border-right: 1px solid #ddd;
+	    }
+	    /* Our service part end */
+	    /* skill part start */
+	    .skill_inner h2 {
+	        font-size: 25px;
+	        margin: 0px 0 20px 261px;
+	    }
+
+	    .skill_inner p {
+	        margin-left: 261px;
+	    }
+
+	    .barfiller {
+	        width: 142%;
+	    }
+	    /* skill part end */
+	    /* Our team part start */
+	    .team_text_inner p {
+	        padding: 10px 0 30px 0px;
+	    }
+	    /* Our team part end */
+	    /* feedback part start */
+	    .feedback_inner2 p {
+	        letter-spacing: 0px;
+	    }
+	    /* feedback part end */
+	    /* client part start */
+	    .client_inner img {
+	        width: 130px;
+	    }
+	    /* client part end */
+	    /* contact part start */
+	    .pr-0,
+	    .px-0 {
+	        padding-left: 0;
+	    }
+	    /* contact part end */
+	}
